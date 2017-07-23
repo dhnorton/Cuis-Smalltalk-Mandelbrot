@@ -1,1 +1,2 @@
-# Cuis-Smalltalk-Mandelbrot
+# Mandelbrot Set
+Experiments in rendering the set using Smalltalk.
