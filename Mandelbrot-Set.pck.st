@@ -1,6 +1,6 @@
-'From Cuis 5.0 of 7 November 2016 [latest update: #3129] on 20 July 2017 at 1:32:31 pm'!
+'From Cuis 5.0 of 7 November 2016 [latest update: #3129] on 23 August 2017 at 12:21:04 pm'!
 'Description Please enter a description for this package'!
-!provides: 'Mandelbrot-Set' 1 12!
+!provides: 'Mandelbrot-Set' 1 13!
 !classDefinition: #MandelRectangle category: #'Mandelbrot-Set'!
 Rectangle subclass: #MandelRectangle
 	instanceVariableNames: ''
@@ -226,9 +226,9 @@ demoOnce
 	(Delay forSeconds: 5) wait.
 	Display restore! !
 
-!Mandelbrot class methodsFor: 'instance creation' stamp: 'dhn 7/20/2017 12:43:53'!
+!Mandelbrot class methodsFor: 'instance creation' stamp: 'dhn 8/23/2017 12:17:08'!
 demoRepeat
-	"Display the Mandelbrot set in a succession of refinement, pause, then erase"
+	"Display the Mandelbrot set in a series of refinements, pause, then erase"
 	"
 	Mandelbrot demoRepeat.
 	"
